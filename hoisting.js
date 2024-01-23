@@ -1,12 +1,12 @@
-/*
+
 //variable hoisting
 console.log(a)
 var a = 10    //var is declared globally, output:undefined
 
-//
+
 console.log(a)
 let a = 10     //let is declared locally, output:reference error
-*/
+
 
 // Functional hoisting
 konguclg(5,10)

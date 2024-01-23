@@ -83,8 +83,14 @@ console.log(kongu)
 for(key in kongu){
     console.log(kongu[key])
 }
-
+kongu = Object.entries(kongu)
+console.log(kongu)
 //for of loop
 for(key of kongu){
     console.log(key)
 }
+
+//for each loop
+kongu.forEach(([key,element]) =>{
+    console.log(key,":",element)
+})

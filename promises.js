@@ -8,9 +8,9 @@ function islocationvalid(loc) {
         return false
     }
 }
-function location() {
+location = () => {
     return new Promise(function (response, errormsg) {
-        setTimeout(function () {
+        setTimeout( () => {
             loc = "nilgiris"
             console.log("Location entered is", loc)
             if (islocationvalid) {
@@ -24,9 +24,9 @@ function location() {
     });
 }
 location().then(
-    function (response) {
+    (response) => {
         console.log(response)
     }
-).catch(function (errormsg) {
+).catch( (errormsg) => {
     console.log(errormsg)
 })

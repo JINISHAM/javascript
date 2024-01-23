@@ -1,12 +1,12 @@
 //Callback
 function ramuSomu(welcomeMessage,callback){
-    setTimeout(function(){
+    setTimeout(() =>{
         console.log(welcomeMessage)
         callback();
     },2000)
 
 }
-function miniAni(){
+ miniAni = () =>{
     console.log("Hello")
 }
 ramuSomu("Hii",miniAni)
@@ -15,7 +15,7 @@ ramuSomu("Hii",miniAni)
 //Example 2
 //Form submission example
 function submitForm(buttonclick,db){
-    setTimeout(function(){
+    setTimeout(()=>{
         console.log(buttonclick)
         db()
     },2000)
@@ -34,7 +34,7 @@ abc(5,4)*/
 
 //Example 3
 function savevideo(buttonpressed,db){
-    setTimeout(function(){
+    setTimeout(()=>{
         console.log(buttonpressed)
         db()
     },2000)
@@ -47,7 +47,7 @@ savevideo("if save button is pressed",database)
 
 //Example 4
 function jinisha(msg,person){
-    setTimeout(function(){
+    setTimeout(()=>{
         console.log(msg)
         person()
 
