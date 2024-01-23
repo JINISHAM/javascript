@@ -28,9 +28,20 @@ console.log(0 || 20)
 console.log(10 || 0)
 console.log(-10 || 20)
 console.log(-10 || -20)
+console.log(0||10&20)
 
 console.log(!10)
 console.log(!0)
 console.log(!-10)
+
+//Relational Operator --> < > >= <= === !==
+aR = 10
+bR = 20
+console.log("Relational Operator > is: ",aR > bR)
+console.log("Relational Operator < is: ",aR < bR)
+console.log("Relational Operator >= is: ",aR >= bR)
+console.log("Relational Operator <= is: ",aR <= bR)
+console.log("Relational Operator === is: ",aR === bR)
+console.log("Relational Operator !== is: ",aR !== bR)
 
 
